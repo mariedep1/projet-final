@@ -1,0 +1,9 @@
+header{
+    border-bottom: 3px solid #020926;
+}
+#logo{
+    width: 15%;
+}
+#accueil, #boutiques, #lifestyle, #a-propos, #contact{
+    color: #020926;
+}
