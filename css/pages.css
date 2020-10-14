@@ -1,23 +1,25 @@
-
+/* header*/
 header{
     border-bottom: 3px solid #020926;
 }
 #logo{
-    width: 15%;
+    width: 25%;
 }
 #accueil, #boutiques, #lifestyle, #a-propos, #contact{
     color: #020926;
 }
 
-.jumbotron{
-    background-image: url(images/people.jpg);
+/*body*/
+
+/*bannière*/
+.banner1>.jumbotron{
+    background-image: url(../images/mode.jpg);
     background-size: cover;
     opacity: 0.8;
     height: 50vh;
-    border-radius: 10%;
-    margin-top: 5%;
+    margin-top: 3%; 
+    border-radius: 15px;
 }
-
 .display-4{
     color: white;
 }
