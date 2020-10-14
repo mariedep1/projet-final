@@ -75,6 +75,10 @@ header{
     border-radius: 30px;
     color: #020926;
 }
+.btn:hover{
+    background-color: #3f0812;
+    color: white;
+}
 
 .img-fluid{
     width: 80%;

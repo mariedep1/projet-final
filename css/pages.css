@@ -50,13 +50,6 @@ header{
     color: white;
 }
 
-.btn{
-    background: white;
-    width: 50%;
-    border-radius: 30px;
-    color: #020926;
-}
-
 .img-fluid{
     width: 80%;
     margin: auto;
@@ -64,12 +57,39 @@ header{
     margin-top: 8%;
 }
 
+.img-fluid:hover{
+    opacity: 0.6;
+}
 .title{
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
 }
 
+/*footer*/
 footer{
     background-color: #020926;
     margin-top: 5%;
+}
+
+/*A propos*/
+.apropos{
+    margin-top: 5%;
+    border: 4px solid #3f0812;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    color: #020926;
+}
+section{
+    margin-top: 7%;
+}
+.premiere-section>h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    color: #020926
+}
+.premiere-section>p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
 }
