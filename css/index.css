@@ -2,9 +2,6 @@
 header{
     border-bottom: 3px solid #020926;
 }
-#logo{
-    width: 25%;
-}
 #accueil, #boutiques, #lifestyle, #a-propos, #contact{
     color: #020926;
     font-family: 'Amatic SC', cursive;
@@ -18,8 +15,6 @@ header{
     background-image: url(../images/people.jpg);
     background-size: cover;
     opacity: 0.8;
-    height: 50vh;
-    margin-top: 3%; 
     border-radius: 15px;
 }
 .display-4{
@@ -35,8 +30,6 @@ header{
     background-color: #9c2231;
     height: 5vh;
     width: 5vh;
-    margin-right: 1%;
-    margin-left: 1%;
 
 }
 .large-rond{
@@ -47,10 +40,8 @@ header{
 }
 
 .presentation{
-    margin-top: 3%;
     border: 2px solid #3f0812;
     border-radius: 50px;
-    padding: 3%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -60,7 +51,6 @@ header{
 .card{
     background-color: #9c2231;
     border-radius: 30px;
-    margin-top: 15%;
     height: 50vh;
 }
 
@@ -88,7 +78,6 @@ header{
 }
 
 .title{
-    margin-top: 5%;
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
 }
@@ -96,6 +85,16 @@ header{
 
 footer{
     background-color: #020926;
-    margin-top: 5%;
 }
 
+@media screen and (max-width: 550px){
+    .banner{ 
+        display: none;
+    }
+    .small-rond{
+        display: none;
+    }
+    .large-rond{
+        display: none;
+    }
+}

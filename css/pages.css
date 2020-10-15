@@ -2,9 +2,6 @@
 header{
     border-bottom: 3px solid #020926;
 }
-#logo{
-    width: 25%;
-}
 #accueil, #boutiques, #lifestyle, #a-propos, #contact{
     color: #020926;
     font-family: 'Amatic SC', cursive;
@@ -18,16 +15,18 @@ header{
     background-image: url(../images/mode.jpg);
     background-size: cover;
     opacity: 0.8;
-    height: 50vh;
-    margin-top: 3%; 
     border-radius: 15px;
 }
 .banner2>.jumbotron{
     background-image: url(../images/help.jpg);
     background-size: cover;
     opacity: 0.8;
-    height: 50vh;
-    margin-top: 3%; 
+    border-radius: 15px;
+}
+.banner3>.jumbotron{
+    background-image: url(../images/mail.jpg);
+    background-size: cover;
+    opacity: 0.8;
     border-radius: 15px;
 }
 .display-4{
@@ -41,7 +40,6 @@ header{
 .card{
     background-color: #4d6080;
     border-radius: 30px;
-    margin-top: 15%;
     height: 70vh;
 }
 
@@ -68,12 +66,10 @@ header{
 /*footer*/
 footer{
     background-color: #020926;
-    margin-top: 5%;
 }
 
 /*A propos*/
 .apropos{
-    margin-top: 5%;
     border: 4px solid #3f0812;
     border-radius: 50px;
     text-align: center;
@@ -81,15 +77,12 @@ footer{
     font-size: 5em;
     color: #020926;
 }
-section{
-    margin-top: 7%;
-}
-.premiere-section>h3 {
+
+.apropos-section>h3 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
     color: #020926
 }
-.premiere-section>p{
+.apropos-section>p{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 3%;
 }
