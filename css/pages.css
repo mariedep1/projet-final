@@ -9,7 +9,9 @@ header{
 }
 
 /*body*/
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /*bannière*/
 .banner1>.jumbotron{
     background-image: url(../images/mode.jpg);
@@ -40,9 +42,7 @@ header{
 .card{
     background-color: #4d6080;
     border-radius: 30px;
-    height: 70vh;
 }
-
 .article{
     text-align: center;
     color: white;
@@ -50,9 +50,7 @@ header{
 
 .img-fluid{
     width: 80%;
-    margin: auto;
     border-radius: 30px;
-    margin-top: 8%;
 }
 
 .img-fluid:hover{
@@ -69,10 +67,9 @@ footer{
 }
 
 /*A propos*/
-.apropos{
+#apropos{
     border: 4px solid #3f0812;
     border-radius: 50px;
-    text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 5em;
     color: #020926;
@@ -83,6 +80,9 @@ footer{
     font-size: 3em;
     color: #020926
 }
-.apropos-section>p{
-    font-family: 'Open Sans', sans-serif;
+
+@media screen and (max-width: 550px){
+    .banner{ 
+        display: none;
+    }
 }
