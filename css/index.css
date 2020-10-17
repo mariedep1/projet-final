@@ -83,6 +83,8 @@ body{
 
 footer{
     background-color: #020926;
+    bottom: 0px; 
+    width: 100%;
 }
 
 @media screen and (max-width: 550px){
@@ -95,4 +97,8 @@ footer{
     .large-rond{
         display: none;
     }
+    .presentation{
+        font-size: 0.8em;
+    }
 }
+

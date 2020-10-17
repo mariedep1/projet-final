@@ -64,6 +64,8 @@ body{
 /*footer*/
 footer{
     background-color: #020926;
+    bottom: 0px;
+    width: 100%;
 }
 
 /*A propos*/
@@ -80,9 +82,38 @@ footer{
     font-size: 3em;
     color: #020926
 }
+.accentuation{
+    color: #9c2231;
+    
+}
 
-@media screen and (max-width: 550px){
+/*formulaire*/
+.contact{
+    color:  #3f0812;
+    font-size: 1.5em;
+}
+form{
+    background-color: #9c2231;
+    border-radius: 15px;
+    padding: 4%;
+}
+label{
+    color: white;
+}
+#bouton-envoyer{
+    background-color: white;
+    color:#3f0812;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
     .banner{ 
         display: none;
+    }
+    #apropos{
+        font-size: 2.5em;
     }
 }
