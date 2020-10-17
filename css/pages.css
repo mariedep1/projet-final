@@ -11,7 +11,9 @@ header{
 /*body*/
 body{
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
 }
+
 /*bannière*/
 .banner1>.jumbotron{
     background-image: url(../images/mode.jpg);
@@ -110,7 +112,7 @@ label{
 
 
 @media screen and (max-width: 600px){
-    .banner{ 
+    .banner1, .banner2, .banner3{ 
         display: none;
     }
     #apropos{
