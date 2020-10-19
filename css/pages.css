@@ -110,10 +110,6 @@ label{
     color:#3f0812;
 }
 
-
-
-
-
 @media screen and (max-width: 600px){
     .banner1, .banner2, .banner3{ 
         display: none;
