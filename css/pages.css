@@ -7,6 +7,9 @@ header{
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
 }
+#accueil:hover, #boutiques:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
+    color: #9c2231;
+}
 
 /*body*/
 body{

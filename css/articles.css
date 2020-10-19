@@ -1,0 +1,54 @@
+/* header*/
+header{
+    border-bottom: 3px solid #020926;
+}
+#accueil, #boutiques, #lifestyle, #a-propos, #contact{
+    color: #020926;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+#accueil:hover, #boutiques:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
+    color: #9c2231;
+}
+
+/*body*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+
+/*Bannière*/
+.banner-article>.jumbotron{
+    background-image: url(../images/clothes.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.display-4{
+    color: #020926;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+
+/*article*/
+article>h2{
+    color: #4d6080;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+.listboutique{
+    list-style-type: none;
+    font-size: 1.2em;
+}
+.adresse{
+    font-size: 0.8em;
+    margin-bottom: 2%;
+
+}
+
+/*footer*/
+footer{
+    background-color: #020926;
+    bottom: 0px;
+    width: 100%;
+}
