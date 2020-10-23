@@ -18,6 +18,10 @@ body{
     min-height: 100vh;
 }
 
+main{
+    background-color: #f9f9f9;
+}
+
 /*Bannière*/
 .banner-article>.jumbotron{
     background-image: url(../images/clothes.jpg);
@@ -46,6 +50,18 @@ footer{
     background-color: #020926;
     bottom: 0px;
     width: 100%;
+}
+#twitter:hover .twitter{
+    fill:#9c2231;
+}
+#facebook:hover .facebook{
+    fill:#9c2231;
+}
+#pinterest:hover .pinterest{
+    fill:#9c2231;
+}
+#instagram:hover .instagram{
+    fill:#9c2231;
 }
 
 @media screen and (max-width: 1000px){
