@@ -2,13 +2,18 @@
 header{
     border-bottom: 3px solid #020926;
 }
-#accueil, #boutiques, #lifestyle, #a-propos, #contact{
+#accueil, #navbarDropdownMenuLink, #lifestyle, #a-propos, #contact{
     color: #020926;
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
 }
-#accueil:hover, #boutiques:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
+#accueil:hover, #navbarDropdownMenuLink:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
     color: #9c2231;
+}
+.dropdown-item{
+    color: #020926;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
 }
 /*body*/
 body{
