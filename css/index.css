@@ -1,130 +1,143 @@
 /* header*/
-header{
-    border-bottom: 3px solid #020926;
+header {
+  border-bottom: 3px solid #020926;
 }
-#accueil, #navbarDropdownMenuLink, #lifestyle, #a-propos, #contact{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+#accueil,
+#navbarDropdownMenuLink,
+#lifestyle,
+#a-propos,
+#contact {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
 }
-#accueil:hover, #navbarDropdownMenuLink:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
-    color: #9c2231;
+#accueil:hover,
+#navbarDropdownMenuLink:hover,
+#lifestyle:hover,
+#a-propos:hover,
+#contact:hover {
+  color: #9c2231;
 }
-.dropdown-item{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+.dropdown-item {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5em;
+}
+header nav img {
+  width: 150px;
 }
 /*body*/
-body{
-    font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 
-main{
-    background-color: #f9f9f9;
+main {
+  background-color: #f9f9f9;
 }
 
 /*bannière*/
-.jumbotron{
-    background-image: url(../images/people.jpg);
-    background-size: cover;
-    opacity: 0.8;
-    border-radius: 15px;
+.jumbotron {
+  background-image: url(../images/people.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 15px;
 }
-.display-4{
-    color:white;
-    font-family: 'Amatic SC', cursive;
-    font-size: 5em;
+.display-4 {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 5em;
 }
 
 /*cercles*/
 
-.small-rond{
-    border-radius: 100%;
-    background-color: #9c2231;
-    height: 5vh;
-    width: 5vh;
-
+.small-rond {
+  border-radius: 100%;
+  background-color: #9c2231;
+  height: 5vh;
+  width: 5vh;
 }
-.large-rond{
-    border-radius: 100%;
-    background-color: #3f0812;
-    height: 8vh;
-    width: 8vh;
+.large-rond {
+  border-radius: 100%;
+  background-color: #3f0812;
+  height: 8vh;
+  width: 8vh;
 }
 
-.presentation{
-    border: 2px solid #3f0812;
-    border-radius: 50px;
-    text-align: center;
+.presentation {
+  border: 2px solid #3f0812;
+  border-radius: 50px;
+  text-align: center;
 }
 
 /*articles récents*/
 
-.card{
-    background-color: #9c2231;
-    border-radius: 30px;
+.card {
+  background-color: #9c2231;
+  border-radius: 30px;
 }
 
-.article{
-    text-align: center;
-    color: white;
+.article {
+  text-align: center;
+  color: white;
 }
 
-.btn{
-    background: white;
-    width: 50%;
-    border-radius: 30px;
-    color: #020926;
+.btn {
+  background: white;
+  width: 50%;
+  border-radius: 30px;
+  color: #020926;
 }
-.btn:hover{
-    background-color: #3f0812;
-    color: white;
-}
-
-.img-fluid{
-    width: 80%;
-    border-radius: 30px;
+.btn:hover {
+  background-color: #3f0812;
+  color: white;
 }
 
-.title{
-    font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+.img-fluid {
+  width: 80%;
+  border-radius: 30px;
 }
 
-
-footer{
-    background-color: #020926;
-    bottom: 0px; 
-    width: 100%;
+.title {
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
 }
 
-#twitter:hover .twitter{
-    fill:#9c2231;
-}
-#facebook:hover .facebook{
-    fill:#9c2231;
-}
-#pinterest:hover .pinterest{
-    fill:#9c2231;
-}
-#instagram:hover .instagram{
-    fill:#9c2231;
+footer {
+  background-color: #020926;
+  bottom: 0px;
+  width: 100%;
 }
 
-@media screen and (max-width: 550px){
-    .banner{ 
-        display: none;
-    }
-    .small-rond{
-        display: none;
-    }
-    .large-rond{
-        display: none;
-    }
-    .presentation{
-        font-size: 0.8em;
-    }
+#twitter:hover .twitter {
+  fill: #9c2231;
+}
+#facebook:hover .facebook {
+  fill: #9c2231;
+}
+#pinterest:hover .pinterest {
+  fill: #9c2231;
+}
+#instagram:hover .instagram {
+  fill: #9c2231;
 }
 
+@media screen and (max-width: 550px) {
+  .banner {
+    display: none;
+  }
+  .small-rond {
+    display: none;
+  }
+  .large-rond {
+    display: none;
+  }
+  .presentation {
+    font-size: 0.8em;
+  }
+}
+
+/* menu navbar */
+header nav .navbar-toggler {
+  border: none;
+}

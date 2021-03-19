@@ -1,87 +1,99 @@
 /* header*/
-header{
-    border-bottom: 3px solid #020926;
+header {
+  border-bottom: 3px solid #020926;
 }
-#accueil, #navbarDropdownMenuLink, #lifestyle, #a-propos, #contact{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+#accueil,
+#navbarDropdownMenuLink,
+#lifestyle,
+#a-propos,
+#contact {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
 }
 
-#accueil:hover, #navbarDropdownMenuLink:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
-    color: #9c2231;
+#accueil:hover,
+#navbarDropdownMenuLink:hover,
+#lifestyle:hover,
+#a-propos:hover,
+#contact:hover {
+  color: #9c2231;
 }
-.dropdown-item{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+.dropdown-item {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5em;
+}
+header nav img {
+  width: 150px;
 }
 /*body*/
-body{
-    font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 
-main{
-    background-color: #f9f9f9;
+main {
+  background-color: #f9f9f9;
 }
 
 /*Bannière*/
-.banner-article>.jumbotron{
-    background-image: url(../images/clothes.jpg);
-    background-size: cover;
-    border-radius: 15px;
+.banner-article > .jumbotron {
+  background-image: url(../images/clothes.jpg);
+  background-size: cover;
+  border-radius: 15px;
 }
-.display-4{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 4em;
+.display-4 {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 4em;
 }
 
 /*article*/
-article>h2{
-    color: #4d6080;
-    font-family: 'Amatic SC', cursive;
-    font-size: 3em;
+article > h2 {
+  color: #4d6080;
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
 }
-.listboutique{
-    list-style-type: none;
-    font-size: 1.5em;
+.listboutique {
+  list-style-type: none;
+  font-size: 1.5em;
 }
-
+.adresse {
+  list-style: none;
+}
 /*footer*/
-footer{
-    background-color: #020926;
-    bottom: 0px;
-    width: 100%;
+footer {
+  background-color: #020926;
+  bottom: 0px;
+  width: 100%;
 }
-#twitter:hover .twitter{
-    fill:#9c2231;
+#twitter:hover .twitter {
+  fill: #9c2231;
 }
-#facebook:hover .facebook{
-    fill:#9c2231;
+#facebook:hover .facebook {
+  fill: #9c2231;
 }
-#pinterest:hover .pinterest{
-    fill:#9c2231;
+#pinterest:hover .pinterest {
+  fill: #9c2231;
 }
-#instagram:hover .instagram{
-    fill:#9c2231;
+#instagram:hover .instagram {
+  fill: #9c2231;
 }
 
-@media screen and (max-width: 1000px){
-    .display-4{
-        color: white;
-    }
+@media screen and (max-width: 1000px) {
+  .display-4 {
+    color: white;
+  }
 }
-@media screen and (max-width: 600px){
-    .banner-article{ 
-        display: none;
-    }
-    article>h2{
-        font-size: 1.5em;
-    }
-    article>p{
-        font-size: 0.9em;
-    }
-
+@media screen and (max-width: 600px) {
+  .banner-article {
+    display: none;
+  }
+  article > h2 {
+    font-size: 1.5em;
+  }
+  article > p {
+    font-size: 0.9em;
+  }
 }

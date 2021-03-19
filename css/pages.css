@@ -1,140 +1,155 @@
 /* header*/
-header{
-    border-bottom: 3px solid #020926;
+header {
+  border-bottom: 3px solid #020926;
 }
-#accueil, #boutiques, #lifestyle, #a-propos, #contact, #navbarDropdownMenuLink{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+#accueil,
+#boutiques,
+#lifestyle,
+#a-propos,
+#contact,
+#navbarDropdownMenuLink {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
 }
-#accueil:hover, #navbarDropdownMenuLink:hover, #lifestyle:hover, #a-propos:hover, #contact:hover{
-    color: #9c2231;
+#accueil:hover,
+#navbarDropdownMenuLink:hover,
+#lifestyle:hover,
+#a-propos:hover,
+#contact:hover {
+  color: #9c2231;
 }
-.dropdown-item{
-    color: #020926;
-    font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+.dropdown-item {
+  color: #020926;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5em;
+}
+header nav img {
+  width: 150px;
 }
 /*body*/
-body{
-    font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
-main{
-    background-color: #f9f9f9;
+main {
+  background-color: #f9f9f9;
 }
 
 /*bannière*/
-.banner1>.jumbotron{
-    background-image: url(../images/mode.jpg);
-    background-size: cover;
-    opacity: 0.8;
-    border-radius: 15px;
+.banner1 > .jumbotron {
+  background-image: url(../images/mode.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 15px;
 }
-.banner2>.jumbotron{
-    background-image: url(../images/help.jpg);
-    background-size: cover;
-    opacity: 0.8;
-    border-radius: 15px;
+.banner2 > .jumbotron {
+  background-image: url(../images/help.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 15px;
 }
-.banner3>.jumbotron{
-    background-image: url(../images/mail.jpg);
-    background-size: cover;
-    opacity: 0.8;
-    border-radius: 15px;
+.banner3 > .jumbotron {
+  background-image: url(../images/mail.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 15px;
 }
-.display-4{
-    color: white;
-    font-family: 'Amatic SC', cursive;
-    font-size: 5em;
+.display-4 {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 5em;
 }
 
 /*articles récents*/
 
-.card{
-    background-color: #4d6080;
-    border-radius: 30px;
+.card {
+  background-color: #4d6080;
+  border-radius: 30px;
 }
-.article{
-    text-align: center;
-    color: white;
-}
-
-.img-fluid{
-    width: 80%;
-    border-radius: 30px;
+.article {
+  text-align: center;
+  color: white;
 }
 
-.img-fluid:hover{
-    opacity: 0.6;
+.img-fluid {
+  width: 80%;
+  border-radius: 30px;
 }
-.title{
-    font-family: 'Amatic SC', cursive;
-    font-size: 3em;
+
+.img-fluid:hover {
+  opacity: 0.6;
+}
+.title {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
 }
 
 /*footer*/
-footer{
-    background-color: #020926;
-    bottom: 0px;
-    width: 100%;
+footer {
+  background-color: #020926;
+  bottom: 0px;
+  width: 100%;
 }
 
-#twitter:hover .twitter{
-    fill:#9c2231;
+#twitter:hover .twitter {
+  fill: #9c2231;
 }
-#facebook:hover .facebook{
-    fill:#9c2231;
+#facebook:hover .facebook {
+  fill: #9c2231;
 }
-#pinterest:hover .pinterest{
-    fill:#9c2231;
+#pinterest:hover .pinterest {
+  fill: #9c2231;
 }
-#instagram:hover .instagram{
-    fill:#9c2231;
+#instagram:hover .instagram {
+  fill: #9c2231;
 }
 
 /*A propos*/
-#apropos{
-    border: 4px solid #3f0812;
-    border-radius: 50px;
-    font-family: 'Amatic SC', cursive;
-    font-size: 5em;
-    color: #020926;
+#apropos {
+  border: 4px solid #3f0812;
+  border-radius: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 5em;
+  color: #020926;
 }
 
-.apropos-section>h3 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 3em;
-    color: #020926
+.apropos-section > h3 {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  color: #020926;
 }
-.accentuation{
-    color: #9c2231;
-    
+.accentuation {
+  color: #9c2231;
 }
-
+.apropos-section h3 > img {
+  width: 150px;
+}
 /*formulaire*/
-.contact{
-    color:  #3f0812;
-    font-size: 1.5em;
+.contact {
+  color: #3f0812;
+  font-size: 1.5em;
 }
-form{
-    background-color: #9c2231;
-    border-radius: 15px;
-    padding: 4%;
+form {
+  background-color: #9c2231;
+  border-radius: 15px;
+  padding: 4%;
 }
-label{
-    color: white;
+label {
+  color: white;
 }
-#bouton-envoyer{
-    background-color: white;
-    color:#3f0812;
+#bouton-envoyer {
+  background-color: white;
+  color: #3f0812;
 }
 
-@media screen and (max-width: 600px){
-    .banner1, .banner2, .banner3{ 
-        display: none;
-    }
-    #apropos{
-        font-size: 2.5em;
-    }
+@media screen and (max-width: 600px) {
+  .banner1,
+  .banner2,
+  .banner3 {
+    display: none;
+  }
+  #apropos {
+    font-size: 2.5em;
+  }
 }
